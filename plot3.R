@@ -32,6 +32,7 @@ legend("topright", col=c("black", "red", "blue"), lty=1, lwd=1,
 ## Save the plot to file
 dev.copy(png, 
          file="./ExData_Plotting1/plot3.png", 
+         pointsize=12,
          height=480, 
          width=480)
 dev.off()
